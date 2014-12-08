@@ -48,8 +48,6 @@
 					&copy; 2014 Steven Hallam
 				   	<span class="sep"> | </span>
 				   	In Beta
-				   	<span class="sep"> | </span>
-				   	<?php echo 'Page template ' . basename( get_page_template() ); ?>
 				</div>
 			</div>
 		</div>

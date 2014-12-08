@@ -19,7 +19,7 @@ get_header(); ?>
 	<div class="content-padder">
 
 		<?php if ( have_posts() ) : ?>
-
+			<img <?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?> >
 			<header class="page-header">
 				<h1 class="page-title">
 					<?php

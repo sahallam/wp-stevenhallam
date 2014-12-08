@@ -10,7 +10,7 @@
 	<header class="page-header">
 		<h1 class="page-title"><?php the_title(); ?></h1>
 	</header><!-- .entry-header -->
-
+hello
 	<div class="entry-content">
 		<?php the_content(); ?>
 		<?php

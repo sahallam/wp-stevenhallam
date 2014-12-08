@@ -7,6 +7,11 @@
 
 get_header(); ?>
 
+<div class="main-content">
+	<div class="container">
+		<div class="row">
+			<div id="content" class="main-content-inner col-sm-12 col-md-8">
+
 	<?php // add the class "panel" below here to wrap the content-padder in Bootstrap style ;) ?>
 	<section class="content-padder error-404 not-found">
 
@@ -16,7 +21,7 @@ get_header(); ?>
 
 		<div class="page-content">
 
-			<p><?php _e( 'Nothing could be found at this location. Maybe try a search?', '_tk' ); ?></p>
+			<p><?php _e( 'Sorry but nothing could be found at this location. Maybe try a search?', '_tk' ); ?></p>
 
 			<?php get_search_form(); ?>
 
