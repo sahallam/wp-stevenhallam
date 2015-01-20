@@ -70,7 +70,7 @@ get_header(); ?>
 <div class="main-content">
 	<div class="container">
 		<div class="row">
-			<div id="content" class="main-content-inner col-sm-12">
+			<div id="content" class="main-content-inner col-sm-8">
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="page-header">
@@ -89,4 +89,5 @@ get_header(); ?>
 	<?php edit_post_link( __( 'Edit', '_tk' ), '<footer class="entry-meta"><span class="edit-link">', '</span></footer>' ); ?>
 </article><!-- #post-## -->
 
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>

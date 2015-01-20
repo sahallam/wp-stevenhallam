@@ -25,7 +25,14 @@
 
 	<?php if ( is_search() || is_archive() ) : // Only display Excerpts for Search and Archive Pages ?>
 	<div class="entry-summary">
-		<?php the_excerpt(); ?>
+		<div class="row">
+		 	<div class="col-md-3">
+				<?php echo get_the_post_thumbnail(); ?>
+		 	</div>
+		 	<div class="col-md-9">
+			 	<?php the_excerpt(); ?>
+		 	</div>
+		 </div> <!-- row -->
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">

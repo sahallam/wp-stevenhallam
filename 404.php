@@ -21,7 +21,7 @@ get_header(); ?>
 
 		<div class="page-content">
 
-			<p><?php _e( 'Sorry but nothing could be found at this location. Maybe try a search?', '_tk' ); ?></p>
+			<p><?php _e( 'Oops. Something has gone astray. Maybe try a search?', '_tk' ); ?></p>
 
 			<?php get_search_form(); ?>
 
