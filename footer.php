@@ -51,9 +51,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="site-footer-inner col-sm-12">
-					&copy; 2014 Steven Hallam
-				   	<span class="sep"> | </span>
+					&copy; 2015 Steven Hallam
+				   	<span class="sep">  |  </span>
 				   	In Beta
+				   	<span class="sep">  |  </span>
+				   	www.stevenhallam.com
 				</div>
 			</div>
 		</div>
