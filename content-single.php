@@ -17,8 +17,8 @@
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', '_tk' ),
-				'after'  => '</div>',
+				'before' => '<button type="page-links">' . __( 'Pages:', '_tk' ),
+				'after'  => '</button>',
 			) );
 		?>
 	</div><!-- .entry-content -->

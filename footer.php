@@ -11,6 +11,12 @@
 		</div><!-- close .row -->
 	</div><!-- close .container -->
 </div><!-- close .main-content -->
+
+<div class="container">
+	<div class="footer-ad">
+		<?php dynamic_sidebar('footer-ad');?>
+	</div>
+</div>
 			   						
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div id="footer">
