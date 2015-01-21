@@ -27,7 +27,9 @@
 	<div class="entry-summary">
 		<div class="row">
 		 	<div class="col-md-3">
+				<a href="<?php the_permalink(); ?>" rel="bookmark">
 				<?php echo get_the_post_thumbnail(); ?>
+				</a>
 		 	</div>
 		 	<div class="col-md-9">
 			 	<?php the_excerpt(); ?>
